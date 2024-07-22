@@ -12,7 +12,7 @@ public class PalindromePartitioning {
     private final List<String> path = new ArrayList<>();
     private String s;
 
-    public List<List<String>> backTracingFromAnswerPerspective(String s) {
+    public List<List<String>> backTrackingFromAnswerPerspective(String s) {
         this.s = s;
         dfs(0);
         return ans;
